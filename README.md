@@ -8,3 +8,7 @@
 <br>
 <br>
 4.-) Descargar los archivos para poder descargar las pantallas de carga de fortnite y las instalas en la siguiente ruta: C:\Program Files\Epic Games\Fortnite\FortniteGame\Content\Paks
+<br>
+<br>
+<br>
+<a title="Mi twitter" href="https://twitter.com/jose89fcb"><img src="https://i.imgur.com/QCHCEon.png" alt="Mi twitter" /></a>
