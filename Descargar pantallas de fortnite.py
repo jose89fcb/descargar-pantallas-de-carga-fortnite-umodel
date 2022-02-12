@@ -107,7 +107,7 @@ ArchivoBat = open('C:\\Program Files\\Epic Games\\Fortnite\FortniteGame\\Content
  
 ArchivoBat.write('umodel.exe -path="C:\Program Files\Epic Games\Fortnite\FortniteGame\Content\Paks"')
  
-ArchivoBat.write(" -aes=0x" + aesFortnite)
+ArchivoBat.write(" -game=ue4.28 -aes=0x" + aesFortnite)
  
  
  
@@ -351,8 +351,20 @@ os.rename(archivo, nombre_nuevo)
 archivo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada10\\Textures"
 nombre_nuevo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada10\\Texturas"
 os.rename(archivo, nombre_nuevo)
- 
 
+####
+archivo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Season19"
+nombre_nuevo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 1 cap 3"
+os.rename(archivo, nombre_nuevo)
+####
+archivo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 1 cap 3\\Textures"
+nombre_nuevo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 1 cap 3\\Texturas"
+os.rename(archivo, nombre_nuevo)
+####
+archivo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 1 cap 3\\PreviewImages"
+nombre_nuevo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 1 cap 3\\Vista previa"
+os.rename(archivo, nombre_nuevo)
+####
 
 
 directorio4 = 'C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga' +textorandom+'\\Temporada8\\DragonNinjaLoading'
