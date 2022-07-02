@@ -365,7 +365,24 @@ archivo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\
 nombre_nuevo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 1 cap 3\\Vista previa"
 os.rename(archivo, nombre_nuevo)
 ####
+archivo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Season20"
+nombre_nuevo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 2 cap 3"
+os.rename(archivo, nombre_nuevo)
 
+####
+archivo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 2 cap 3\\PreviewImages"
+nombre_nuevo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 2 cap 3\\Vista previa"
+os.rename(archivo, nombre_nuevo)
+####
+archivo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Season21"
+nombre_nuevo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 3 cap 3"
+os.rename(archivo, nombre_nuevo)
+
+####
+archivo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 3 cap 3\\PreviewImages"
+nombre_nuevo = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom+"\\Temporada 3 cap 3\\Vista previa"
+os.rename(archivo, nombre_nuevo)
+####
 
 directorio4 = 'C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga' +textorandom+'\\Temporada8\\DragonNinjaLoading'
 directorio5 = 'C:\\Program Files\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga ' +textorandom+'\\Temporada7\\NeonCatLoading'
@@ -419,5 +436,3 @@ time.sleep(6)
 path="PantallasDeCargaFn\\Game\\2dAssets\\pantallasDeCarga " +textorandom
 path=os.path.realpath(path)
 os.startfile(path)
-
-
