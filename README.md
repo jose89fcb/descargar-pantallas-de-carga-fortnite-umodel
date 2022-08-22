@@ -1,3 +1,6 @@
+<b>FUNCIONAL</b> <a href="https://github.com/jose89fcb/-18-08-2022-FUNCIONAL-descargar-pantallas-de-carga-fortnite-umodel">https://github.com/jose89fcb/-18-08-2022-FUNCIONAL-descargar-pantallas-de-carga-fortnite-umodel</a>
+
+
 1.-) Necesitas instalar python 3.7: https://www.python.org/downloads/release/python-370/
 <br>
 <br>
